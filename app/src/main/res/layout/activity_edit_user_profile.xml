@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    tools:context=".ui.EditUserProfileActivity">
+
+    <TextView
+        android:text="Edit Profile"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <EditText
+        android:id="@+id/etEditFirstName"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="First Name"
+        android:background="@drawable/custom_edittext"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_height="55dp"/>
+
+    <EditText
+        android:id="@+id/etEditLastName"
+        android:layout_width="match_parent"
+        android:hint="Last Name"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_height="55dp"/>
+
+    <EditText
+        android:id="@+id/etEditUsername"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:layout_height="55dp"/>
+
+    <EditText
+        android:id="@+id/etEditEmail"
+        android:layout_width="match_parent"
+        android:hint="Email "
+        android:textSize="18sp"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/white"
+        android:paddingLeft="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+
+        android:layout_height="55dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnEditProfile"
+        android:text="Update"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/custom_buttom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+</LinearLayout>
