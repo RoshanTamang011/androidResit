@@ -1,5 +1,5 @@
 This is my final assignment for the module Android Application which is an ecommerce application
-where you can buy gadgets such as mobile phones, laptops, desktops, cameras etc.
+where you can buy laptop.
 The programming language used for the development is Kotlin and for the backend API, Node.js
 is used. The data is stored in NoSQL database MongoDB.
 
